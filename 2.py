@@ -20,3 +20,4 @@ for line in log.readlines():
 				#print j
 				output = host + "," + j[0] + "," + j[1] + "," + j[2] + ","+ j[4] + "," + j[6] + "\n"
 				xls.write(output)
+				
